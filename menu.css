@@ -1,0 +1,22 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:Arial,sans-serif;
+	font-size: 14px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.wrapper3{
+	display:flex;
+	justify-content: space-around;
+	width:400px;
+	padding:24px 8px;
+}
+a:hover{
+	border-bottom:1px solid white;
+	padding-bottom:40px;
+}
