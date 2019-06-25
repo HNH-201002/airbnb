@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	box-sizing:border-box;
+}
+body{
+	font-family:Arial,sans-serif;
+}
+.recommended{
+	display:grid;
+	grid-template-columns:auto auto auto auto auto;
+	grid-column-gap: 50px;
+
+}
+img{
+	border-radius: 3px;
+}
+.recommended-1{
+	position:relative;
+	display:flex;
+	 justify-content: center;
+    align-items: flex-end;
+    cursor:pointer;
+}
+
+.recommended-1 .location{
+  position:absolute;
+ font-size:20px;
+ font-weight:bold;
+ color:white;
+ top:80%;
+}
+.recommended-1 .price{
+ position:absolute;
+ top:88%;
+ left:25%;
+ color:white;
+}
